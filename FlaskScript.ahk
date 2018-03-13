@@ -5,6 +5,7 @@
 ;If you want to activate all flasks, set both instances of number 2 below to number 1.
 FlaskToPress := 2
 
+;I've set the script to be triggered by the 'F' key. Change the F in the next line to the key of your choosing.
 F::
 {
 	send, %FlaskToPress%
